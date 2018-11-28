@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html class="has-navbar-fixed-top" dir="ltr" lang="ru">
+<head prefix="og: http://ogp.me/ns#">
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="keywords" content="radio, player, furry radio, фурри радио" />
+	<meta name="description" content="Независимая радиостанция сообщества FURRY (ФУРРИ)." />
+	<meta name="copyright" content="METADATA / FOUNDATION" />
+	<meta name="theme-color" content="#f3f6f9" />
+	<title>Радио FURRY / ФУРРИ</title>
+
+	<!-- open graph -->
+	<meta property="og:type" content="website" />
+	<meta property="og:site_name" content="Радио FURRY / ФУРРИ" />
+	<meta property="og:title" content="Радио FURRY / ФУРРИ" />
+	<meta property="og:description" content="Независимая радиостанция сообщества FURRY (ФУРРИ)." />
+	<meta property="og:image" content="https://furryradio.pro/storage/images/logo.png" />
+	<meta property="og:url" content="https://furryradio.pro" />
+	<!-- / open graph -->
+
+	<!-- twitter -->
+	<meta name="twitter:card" content="summary" />
+	<meta name="twitter:title" content="Радио FURRY / ФУРРИ" />
+	<meta name="twitter:description" content="Независимая радиостанция сообщества FURRY (ФУРРИ)." />
+	<meta name="twitter:image" content="https://furryradio.pro/storage/images/logo.png" />
+	<meta name="twitter:site" content="@metadatafdn" />
+	<meta name="twitter:creator" content="@metadatafdn" />
+	<!-- / twitter -->
+
+	<!-- styles -->
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Condensed:400,400i,700,700i&amp;subset=cyrillic" />
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:400,400i,700,700i&amp;subset=cyrillic" />
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Fira+Mono:400,700&amp;subset=cyrillic" />
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css" />
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma/css/bulma.min.css" />
+	<link rel="stylesheet" href="https://cdn-storage.github.io/styles/common/theme.css" />
+	<link rel="stylesheet" href="engine/styles/theme.css" />
+	<!-- / styles -->
+
+	<!-- favicon -->
+	<link rel="icon" type="image/x-icon" href="favicon.ico" />
+	<!-- / favicon -->
+</head>
+<body itemscope itemtype="http://schema.org/WebPage">
+
+<!-- navigation -->
+<nav class="navbar has-shadow is-fixed-top is-transparent" itemscope itemtype="http://schema.org/SiteNavigationElement">
+	<div class="navbar-brand">
+		<div class="navbar-item">
+			<h1>
+				Радио FURRY / ФУРРИ
+			</h1>
+		</div>
+		<a class="navbar-burger burger" role="button" data-target="navMenu" aria-label="menu" aria-expanded="false">
+			<span></span>
+			<span></span>
+			<span></span>
+		</a>
+	</div>
+	<div id="navMenu" class="navbar-menu">
+		<div class="navbar-start">
+		</div>
+		<div class="navbar-end">
+			<a class="navbar-item modal-button" data-target="section-site" itemprop="url">
+				<span itemprop="name">Добавить на сайт</span>
+			</a>
+			<div class="navbar-item has-dropdown is-hoverable">
+				<a class="navbar-link">
+					Наши ресурсы
+				</a>
+				<div class="navbar-dropdown is-boxed">
+					<a class="navbar-item" href="https://whatisfurry.pro/" target="_blank" itemprop="url">
+						<span itemprop="name">О ФУРРИ</span>
+					</a>
+					<a class="navbar-item" href="https://furcode.pro/" target="_blank" itemprop="url">
+						<span itemprop="name">ФурКод</span>
+					</a>
+					<a class="navbar-item" href="https://furs.chat/" target="_blank" itemprop="url">
+						<span itemprop="name">Чат</span>
+					</a>
+					<a class="navbar-item" href="https://furs.network/" target="_blank" itemprop="url">
+						<span itemprop="name">Сообщество</span>
+					</a>
+				</div>
+			</div>
+		</div>
+	</div>
+</nav>
+<!-- / navigation -->
+
+<!-- section-main -->
+<section id="section-main" class="section">
+	<div class="container">
+		<div class="box logo"></div>
+		<div class="box">
+			<h1 class="title">
+				Радио FURRY / ФУРРИ
+			</h1>
+			<h2 class="subtitle">
+				Независимая радиостанция сообщества FURRY (ФУРРИ)
+			</h2>
+			<!-- player -->
+			<div id="player" class="columns">
+				<div class="column">
+					<div id="jp-init-radio" class="jp-init"></div>
+					<div id="jp-container-radio" class="jp-container jp-audio" role="application" aria-label="media player">
+						<div class="jp-type-single">
+							<div class="jp-gui jp-interface">
+								<div class="jp-controls">
+									<div class="jp-play jp-button">
+										<span class="fas fa-play fa-fw"></span>
+									</div>
+									<div class="jp-pause jp-button">
+										<span class="fas fa-pause fa-fw"></span>
+									</div>
+								</div>
+								<div class="jp-controls-meta">
+									<div class="jp-progress">
+										<div class="jp-timer-container">
+											<div class="jp-current-time" role="timer" aria-label="time">&nbsp;</div>
+											<div class="jp-duration" role="timer" aria-label="duration">&nbsp;</div>
+										</div>
+										<div class="jp-progress-bar-container">
+											<div class="jp-progress-bar">
+												<div class="jp-seek-bar">
+													<div class="jp-play-bar"></div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="jp-volume">
+										<div class="jp-volume-button-container">
+											<div class="jp-mute jp-button">
+												<span class="fas fa-volume-off fa-fw"></span>
+											</div>
+											<div class="jp-volume-max jp-button">
+												<span class="fas fa-volume-up fa-fw"></span>
+											</div>
+										</div>
+										<div class="jp-volume-bar-container">
+											<div class="jp-volume-bar">
+												<div class="jp-volume-bar-value"></div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- / player -->
+		</div>
+	</div>
+</section>
+<!-- / section-main -->
+
+<!-- section-site -->
+<section id="section-site" class="modal">
+	<div class="modal-background"></div>
+	<div class="modal-card">
+		<header class="modal-card-head">
+			<h2 class="modal-card-title">
+				Добавить радио на сайт
+			</h2>
+			<button class="delete" aria-label="close"></button>
+		</header>
+		<section class="modal-card-body">
+			<div class="columns">
+				<div class="column">
+					<article class="content">
+						<h3>
+							Всплывающее окно
+						</h3>
+						<p>
+							Вы можете добавить наше радио к себе на сайт.
+							Для этого необходимо добавить следующий код в низ страницы своего сайта перед тегом
+							<code>&lt;/body&gt;</code>:
+						</p>
+						<pre><code>&lt;script src=&quot;https://furryradio.pro/storage/scripts/radio.link.min.js&quot;&gt;&lt;/script&gt;</code></pre>
+						<p>
+							После этого, в любом теге с идентификатором
+							<code>radioFurryLink</code> автоматически создаётся ссылка на всплывающее окно с плеером.
+							Вы можете создать, например, тег
+							<code>&lt;span id=&quot;radioFurryLink&quot;&gt;&lt;/span&gt;</code> или
+							<code>&lt;div id=&quot;radioFurryLink&quot;&gt;&lt;/div&gt;</code> и поместить его в любое место своего сайта.
+						</p>
+					</article>
+				</div>
+			</div>
+		</section>
+		<footer class="modal-card-foot">
+			<button title="Закрыть" class="button is-danger is-large ext-modal-button-close" type="reset">
+				<span class="icon"><i class="fas fa-times-circle fa-lg"></i></span>
+			</button>
+		</footer>
+	</div>
+</section>
+<!-- / section-site -->
+
+<!-- scripts -->
+<script src="https://cdn.jsdelivr.net/npm/jquery"></script>
+<script src="https://cdn.jsdelivr.net/npm/clipboard"></script>
+<script src="https://cdn.jsdelivr.net/npm/jplayer"></script>
+<script src="https://cdn-storage.github.io/scripts/common/bulma.min.js"></script>
+<script src="https://cdn-storage.github.io/scripts/common/theme.min.js"></script>
+<script src="engine/scripts/theme.min.js"></script>
+<!-- / scripts -->
+
+</body>
+</html>
